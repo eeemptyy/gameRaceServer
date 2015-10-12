@@ -39,4 +39,7 @@ class MultiThreadServer {
 		ls.get(0).sendData();
 		ls.get(1).sendData();
 	}
+	public void printPain(String a){
+		System.out.println(a);
+	}
 }
